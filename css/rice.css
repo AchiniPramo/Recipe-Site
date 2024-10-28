@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 2500px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+header {
+  height: 85px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgb(104, 100, 100);
+  box-shadow: 0 -8px 26px black;
+  padding: 0 20px;
+  margin: -8px -8px 0 -8px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo_content h1 {
+  font-size: 2.5rem;
+  color: black;
+  margin-left: 30px;
+  margin-right: 450px;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+ul li {
+  display: inline-flex;
+}
+
+ul a:hover {
+  color: #ffd700;
+}
+
+section {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: red;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.intro,
+.about,
+.make-at-home,
+.types {
+  margin-bottom: 40px;
+}
+
+.about img,
+.make-at-home img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gallery article {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallery img {
+  width: 300px;
+  height: 300px;
+  gap: 20px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: black;
+}
+
+footer {
+  background-color: darkgrey;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
