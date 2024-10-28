@@ -13,7 +13,6 @@ body {
 header {
   height: 85px;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   background: rgb(104, 100, 100);
   box-shadow: 0 -8px 26px black;
@@ -21,14 +20,18 @@ header {
   margin: -8px -8px 0 -8px;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 1000;
+  font-size: 2rem;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  padding-left: 20px;
 }
 
 .logo_content h1 {
