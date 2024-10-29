@@ -1,8 +1,32 @@
 @media (max-width: 1024px) {
-}
-@media (max-width: 1024px) {
-  .hero-section {
-    flex-direction: column;
-    align-items: center;
+  .page-index header {
+    height: 80px;
+    font-size: 2rem;
+    padding-right: 50px;
+  }
+
+  ul {
+    margin-left: 150px;
+  }
+
+  .logo_content h1 {
+    margin: -30px;
+    /* padding: px; */
+  }
+  .page-index .content {
+    margin-top: 50px;
+  }
+
+  .page-pizza header {
+    height: 80px;
+    padding-left: 10px;
+  }
+
+  .page-pizza .logo_content h1 {
+    margin: 0;
+  }
+
+  .page-pizza ul {
+    margin-left: 150px;
   }
 }
