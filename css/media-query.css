@@ -1,32 +1,82 @@
 @media (max-width: 1024px) {
-  .page-index header {
-    height: 80px;
-    font-size: 2rem;
-    padding-right: 50px;
-  }
-
-  ul {
-    margin-left: 150px;
+  header {
+    font-size: 1.8rem;
   }
 
   .logo_content h1 {
-    margin: -30px;
-    /* padding: px; */
-  }
-  .page-index .content {
-    margin-top: 50px;
+    font-size: 2rem;
+    margin-right: 100px;
   }
 
-  .page-pizza header {
-    height: 80px;
-    padding-left: 10px;
+  ul {
+    gap: 30px;
   }
 
-  .page-pizza .logo_content h1 {
-    margin: 0;
+  .food-categories article {
+    flex-basis: 30%;
   }
 
-  .page-pizza ul {
-    margin-left: 150px;
+  .food-categories img {
+    max-width: 250px;
+    height: 200px;
+  }
+}
+
+/* For larger mobile devices (portrait mode) */
+@media (max-width: 768px) {
+  header {
+    font-size: 1.6rem;
+    padding: 0 15px;
+  }
+
+  .logo_content h1 {
+    font-size: 1.8rem;
+    margin-right: 20px;
+  }
+
+  ul {
+    gap: 20px;
+    font-size: 18px;
+  }
+
+  .food-categories article {
+    flex-basis: 45%;
+  }
+
+  .food-categories img {
+    max-width: 220px;
+    height: 180px;
+  }
+}
+
+/* For small mobile devices */
+@media (max-width: 480px) {
+  header {
+    font-size: 1.4rem;
+  }
+
+  .logo_content h1 {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+  }
+
+  .food-categories {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .food-categories article {
+    flex-basis: 80%;
+  }
+
+  .food-categories img {
+    max-width: 180px;
+    height: 150px;
   }
 }
