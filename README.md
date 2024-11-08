@@ -4,12 +4,7 @@ To create an engaging GitHub overview page for your recipe site, you can use **M
 
 # 🍲 Recipe Hub
 
-![Recipe Hub Banner](https://via.placeholder.com/800x300.png?text=Recipe+Hub) <!-- Replace with your banner image URL -->
-
 A beautifully designed recipe website that brings a world of flavors to your fingertips! This site offers an easy-to-navigate collection of recipes, complete with ingredients, step-by-step instructions, and vibrant visuals. Whether you're a food enthusiast or a home chef, Recipe Hub is your go-to guide for culinary inspiration. 
-
-![HTML](https://img.shields.io/badge/HTML-5-orange) ![CSS](https://img.shields.io/badge/CSS-3-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) ![License](https://img.shields.io/badge/License-MIT-green)
-
 ---
 
 ## 🌟 Features
@@ -21,21 +16,11 @@ A beautifully designed recipe website that brings a world of flavors to your fin
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-![Home Page Screenshot](https://via.placeholder.com/400x200.png?text=Home+Page) <!-- Replace with screenshot URLs -->
-
-### Recipe Details
-![Recipe Details Screenshot](https://via.placeholder.com/400x200.png?text=Recipe+Details)
-
----
-
 ## 🚀 Getting Started
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/recipe-hub.git
+   git clone https://github.com/AchiniPramo/Recipe-Site.git
    ```
 
 2. **Open `index.html`** in your favorite browser to view the site.
@@ -64,7 +49,7 @@ Contributions are welcome! Feel free to submit a pull request with improvements 
 
 ## 💬 Contact
 
-Questions or feedback? Reach out at [your.email@example.com](mailto:your.email@example.com).
+Questions or feedback? Reach out at [your.email@example.com](mailto:achinipramodhya4@gmail.com).
 
 ---
 
