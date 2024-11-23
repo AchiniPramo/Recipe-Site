@@ -49,15 +49,6 @@ Contributions are welcome! Feel free to submit a pull request with improvements 
 
 ## 💬 Contact
 
-Questions or feedback? Reach out at [your.email@example.com](mailto:achinipramodhya4@gmail.com).
+Questions or feedback? Reach out at achinipramodhya4@gmail.com.
 
 ---
-
-This template includes:
-- **Badges** for easy identification of technologies and license.
-- **Feature section** with bullet points to highlight site features.
-- **Screenshots** to provide a visual overview of the site.
-- **Getting Started instructions** for anyone looking to try out or contribute to the project.
-- **Contact and License** information for contributors and users.
-
-Simply replace placeholder images, links, and text with relevant information for your project, and you’ll have a professional-looking GitHub overview page!
