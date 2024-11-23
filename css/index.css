@@ -135,3 +135,62 @@ footer p {
 } */
 
 /* For tablets and smaller laptops */
+
+/* Hide the burger button by default */
+.burger-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.burger-button span {
+  display: block;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Show burger button */
+  .burger-button {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+  }
+
+  /* Hide the navigation menu */
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(104, 100, 100);
+    position: absolute;
+    top: 85px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Show the menu when active */
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu li {
+    padding: 10px 0;
+  }
+
+  .nav-menu a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+}
