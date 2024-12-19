@@ -31,6 +31,16 @@
     </header>
 
     <main class="container">
+      <div class="menu-panel" id="menu-panel-id">
+        <button class="close-btn" 0 id="btn-close">&times;</button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="/pages/pizza.html">Pizza</a></li>
+          <li><a href="/pages/rice.html">Rice</a></li>
+          <li><a href="/pages/kottu.html">Kottu</a></li>
+          <li><a href="/pages/dewel.html">Devilled</a></li>
+        </ul>
+      </div>
       <section>
         <p>
           Welcome to RecipeHaven! Dive into a world of culinary delights where
@@ -93,6 +103,18 @@
       </div>
     </footer>
 
-    <script src="/js/index.js"></script>
+    <script>
+      const burger = document.getElementById("burger");
+      const menuPanel = document.getElementById("menu-panel-id");
+      const closeBtn = document.getElementById("btn-close");
+
+      burger.addEventListener("click", () => {
+        menuPanel.classList.toggle("active");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        menuPanel.classList.remove("active");
+      });
+    </script>
   </body>
 </html>
