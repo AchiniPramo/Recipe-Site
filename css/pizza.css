@@ -196,6 +196,9 @@ header {
     margin-right: 50px;
   }
 
+  .menu-bar {
+    display: flex;
+  }
   ul {
     gap: 20px;
   }
@@ -225,10 +228,11 @@ header {
 }
 
 /* For large mobile devices */
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   header {
     height: 70px;
     padding: 0 10px;
+    margin: 0;
   }
 
   .logo_content h1 {
@@ -237,7 +241,8 @@ header {
   }
 
   nav ul {
-    flex-direction: column;
+    /* display: none; */
+    flex-direction: row;
     align-items: center;
     gap: 10px;
     margin-top: 10px;
@@ -288,7 +293,9 @@ header {
   ul a {
     font-size: 16px;
   }
-
+  ul li {
+    display: none;
+  }
   h2 {
     font-size: 1.4rem;
   }
@@ -309,7 +316,7 @@ header {
 
 /* Burger Menu Style */
 .burger-menu {
-  display: none; /* Hidden by default, shown on smaller screens */
+  display: none;
   flex-direction: column;
   cursor: pointer;
   gap: 4px;
@@ -322,26 +329,25 @@ header {
   display: block;
 }
 
-/* Media query for tablets and smaller devices */
 @media (max-width: 768px) {
-  nav ul {
-    display: none; /* Hide nav links by default on small screens */
+  /* nav ul {
+    display: none;
     flex-direction: column;
     gap: 15px;
     margin-top: 10px;
     background: rgb(104, 100, 100);
     position: absolute;
-    top: 85px; /* Below header */
+    top: 85px; 
     left: 0;
     width: 100%;
     padding: 20px 0;
-  }
+  } */
 
   nav ul.show {
-    display: flex; /* Show nav links when toggled */
+    display: flex;
   }
 
   .burger-menu {
-    display: flex; /* Show burger menu button */
+    display: flex;
   }
 }

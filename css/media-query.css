@@ -28,7 +28,10 @@
     font-size: 1.6rem;
     padding: 0 15px;
   }
-
+  .menu-bar {
+    display: flex;
+    flex-direction: row;
+  }
   .logo_content h1 {
     font-size: 1.8rem;
     margin-right: 20px;
@@ -50,20 +53,22 @@
 }
 
 /* For small mobile devices */
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   header {
     font-size: 1.4rem;
   }
 
-  .logo_content h1 {
+  /* .logo_content h1 {
     font-size: 1.5rem;
     margin-right: 10px;
-  }
+  } */
 
-  ul {
-    flex-direction: column;
-    gap: 15px;
-    font-size: 16px;
+  nav ul {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
   }
 
   .food-categories {

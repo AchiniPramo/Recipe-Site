@@ -59,8 +59,6 @@ ul a {
   font-size: 22px;
 }
 
-
-
 ul a:hover {
   color: #ffd700;
 }
@@ -139,7 +137,7 @@ footer p {
 /* For tablets and smaller laptops */
 
 /* Hide the burger button by default */
-.burger-button {
+/* .burger-button {
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -149,7 +147,7 @@ footer p {
   border: none;
   cursor: pointer;
   z-index: 1100;
-}
+} */
 
 .burger-button span {
   display: block;
@@ -164,13 +162,13 @@ footer p {
   /* Show burger button */
   .burger-button {
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     right: 20px;
     top: 30px;
   }
 
   /* Hide the navigation menu */
-  .nav-menu {
+  /* .nav-menu {
     display: none;
     flex-direction: column;
     background-color: rgb(104, 100, 100);
@@ -179,7 +177,7 @@ footer p {
     right: 0;
     width: 100%;
     text-align: center;
-  }
+  } */
 
   /* Show the menu when active */
   .nav-menu.active {
