@@ -1,7 +1,3 @@
-To create an engaging GitHub overview page for your recipe site, you can use **Markdown** formatting to add structure, images, and badges. Here’s a sample design template that will make your project visually appealing and easy to navigate:
-
----
-
 # 🍲 Recipe Hub
 
 A beautifully designed recipe website that brings a world of flavors to your fingertips! This site offers an easy-to-navigate collection of recipes, complete with ingredients, step-by-step instructions, and vibrant visuals. Whether you're a food enthusiast or a home chef, Recipe Hub is your go-to guide for culinary inspiration. 
